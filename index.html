@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <h1 class="titulo">Clases</h1>
+
+    <div class="columnas">
+
+    <div class="cuadricula">
+        <div class="materia_div" style="background: lightcoral;">
+            <span class="algebra">
+                Álgebra:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="algebra">Clase</button>
+        </div>
+        <div class="materia_div" style="background: lightgreen;">
+            <span class="quimica">
+                Química:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="quimica">Clase</button>
+        </div>
+        <div class="materia_div" style="background: silver;">
+            <span class="tecnologia">
+                Tecnología:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="tecnologia">Clase</button>
+        </div>
+        <div class="materia_div" style="background: lightpink;">
+            <span class="ingles">
+                Inglés:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="ingles_martes">Clase Martes</button>
+            <button class="boton_materia_clase" id="ingles_miercoes&jueves">Clase Miercoles y Jueves</button>
+        </div>
+        <div class="materia_div" style="background: lightgray;">
+            <span class="tutoria">
+                Tutoría/Jóvenes en casa:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="tutoria">Clase</button>
+        </div>
+        <div class="materia_div" style="background: rgb(123, 252, 252);">
+            <span class="logica">
+                Lógica:
+            </span>
+            <br>
+            <button class="boton_materia_clase" id="logica">Classroom</button>
+        </div>
+
+
+    </div>
+
+    <div class="imagenes">
+    <img src="1FM.png" class="image_1fm">
+    <img src="1F-MAT.png" class="image_1f-mat">
+    </div>
+
+    </div>
+
+
+
+
+    <script>
+        //algebra
+        const boton_algebra = document.getElementById("algebra")
+        boton_algebra.addEventListener("click", function_algebra)
+
+        function function_algebra() {
+            window.open("https://us05web.zoom.us/j/84574059722?pwd=TmcrVFJTT2xid2NSSWtRRGlLS3hFZz09")
+        }
+    </script>
+
+    <script>
+        //quimica
+        const boton_quimica = document.getElementById("quimica")
+        boton_quimica.addEventListener("click", function_quimica)
+
+        function function_quimica() {
+            window.open("https://us04web.zoom.us/j/2868292156?pwd=V21GMXhiMWFjTi9pcEt2QmVWcXc5UT09")
+        }
+    </script>
+
+    <script>
+        //tecnologia
+        const boton_tecnologia = document.getElementById("tecnologia")
+        boton_tecnologia.addEventListener("click", function_tecnologia)
+
+        function function_tecnologia() {
+            window.open("https://us04web.zoom.us/j/4108656701?pwd=d1E0aEEzdHRUckc4NkMrTjBBbU51UT09")
+        }
+    </script>
+
+    <script>
+        //ingles
+        //martes
+        const boton_ingles_martes = document.getElementById("ingles_martes")
+        boton_ingles_martes.addEventListener("click", function_ingles_martes)
+
+        function function_ingles_martes() {
+            window.open("https://us02web.zoom.us/j/84732952426?pwd=L0dkR0hTZHMyeTZ4S3hqV25QaStXZz09")
+        }
+        //miercoles y jueves
+        const boton_ingles_miercoles_jueves = document.getElementById("ingles_miercoes&jueves")
+        boton_ingles_miercoles_jueves.addEventListener("click", function_ingles_martes)
+
+        function function_ingles_martes() {
+            window.open("https://us02web.zoom.us/j/88127353714?pwd=Z0tPYkhPK1dDUUJ1OTRyWnpoUGJlZz09")
+        }
+    </script>
+
+    <script>
+        //tutoria
+        const boton_tutoria = document.getElementById("tutoria")
+        boton_tutoria.addEventListener("click", function_tutoria)
+
+        function function_tutoria() {
+            window.open("https://us04web.zoom.us/j/76820304649?pwd=QzN3YTYxaFZTOG5FU1hacm9vaGVEQT09")
+        }
+    </script>
+
+    <script>
+        //logica
+        const boton_logica = document.getElementById("logica")
+        boton_logica.addEventListener("click", function_logica)
+
+        function function_logica() {
+            window.open("https://classroom.google.com/c/MzkyODY1MDU0NzU3?cjc=x")
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
