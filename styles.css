@@ -17,8 +17,8 @@ body {
 
 .imagenes {
     margin-top: 300px;
-    border: 2px solid black;
-    border-radius: 5px;
+    /* border: 2px solid black;
+    border-radius: 5px; */
 
 }
 
@@ -42,14 +42,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 75px;
     grid-auto-rows: 225px;
-    
+    min-width: 100%;
 }
 
 .materia_div {
     border: 3px solid black;
     border-radius: 5px;
     height: 265px;
-    overflow: hidden;
+    overflow: show;
+    min-width: 215px;
 }
 
 
