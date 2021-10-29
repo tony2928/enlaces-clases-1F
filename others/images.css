@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+
+}
+
+.imagen_div {
+    flex: 2;
+    min-width: 300px;
+    
+}
+
+.imagen_div:first-child {
+    flex: 2;
+
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -80px;
+}
